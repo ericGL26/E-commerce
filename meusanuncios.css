@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: rgb(90, 89, 89);
+    height: 100vh;
+}
+
+.titulo_principal {
+    margin-left: 20px;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(147, 146, 146);
+    align-items: center;
+    flex-wrap: wrap;
+}

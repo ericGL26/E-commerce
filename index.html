@@ -1,0 +1,32 @@
+<DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Click&Buy</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="div_superior_barra">
+        <h1 class="titulo">Click&Buy</h1>
+        <button onclick="RedirecionarPagCadastro()" id="butao_cadastrar_user" class="butao_cadastrar">Cadastrar-se</button>
+        <button onclick="redirecionarUser()" class="butao_postar_produto" id="butao_mandar_user">Criar produto</button>
+        <button onclick="redirecionarlogin()" id="butao_login" class="butao_cadastrar">Login</button>
+        <button onclick="redirecionarmeuanuncio()" class="butao_cadastrar">Meus anuncios</button>
+
+    </div>
+
+
+    <div id="div_central_conteiner_id" class="div_central_conteiner">
+        <div id="sidebar" class="sidebar_conta">
+            <button onclick="expandirSidebar()" id="butao_expandir" class="butao_expandir_sidebar"></button>
+            <h2 id="nome_user" class="nome_user"></h2>
+        </div>
+    </div>
+
+</body>
+
+</html>

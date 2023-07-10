@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgb(147, 146, 146);
+    overflow-x: hidden;
+
+}
+
+.div_superior_barra {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.titulo {
+    color: white;
+    margin-left: 70px;
+}
+
+.opcoes_secundarias_superiores {
+    color: white;
+    margin-left: 200px;
+}
+
+.butao_postar_produto {
+    margin-left: 125px;
+    color: black;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(4, 215, 4);
+}
+
+.div_central_conteiner {
+    display: flex;
+    height: 710px;
+    width: 100%;
+    background-color: rgb(147, 146, 146);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div_anuncio_teste_css {
+    display: flex;
+    background-color: rgb(237, 236, 236);
+    border-radius: 20px;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.div_foto_produto {
+    display: flex;
+    height: 250px;
+    width: 400px;
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome_produto {
+    color: black;
+    margin-left: 20px;
+}
+
+.butao_comprar {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(6, 198, 6);
+    border-radius: 10px;
+    margin-left: 20px;
+    top: 10px;
+}
+
+.butao_cadastrar {
+    background-color: rgb(4, 215, 4);
+    color: black;
+    margin-left: 150px;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+.nomeuser {
+    color: white;
+    margin-left: 30px;
+}
+
+.sidebar_conta {
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    margin-left: 1400px;
+    top: 90px;
+    border-radius: 5px;
+}
+
+.butao_expandir_sidebar {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 5px;
+    flex-direction: column;
+    position: absolute;
+}
+
+.nome_user {
+    margin-top: 70px;
+    margin-left: 50px;
+}

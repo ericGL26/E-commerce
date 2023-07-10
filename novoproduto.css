@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_conteiner_produto {
+    height: 550px;
+    width: 500px;
+    background-color: rgb(166, 165, 165);
+    border-radius: 20px;
+}
+
+.titulo_conteiner_crie_produto {
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.input_nome_produto {
+    height: 40px;
+    width: 240px;
+    background-color: rgb(198, 195, 195);
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.indicador_input_nomeproduto {
+    margin-left: 20px;
+}
+
+.butao_enviar_dados {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    background-color: gray;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}

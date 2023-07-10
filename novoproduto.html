@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="novoproduto.css"/>
+    <script src="novoproduto.js" defer></script>
+    <title>Click&Buy / Criar produto</title>
+</head>
+<body>
+
+<div class="conteiner">
+
+
+    <div id="apresentar-imagem"></div>
+
+    <div class="div_conteiner_produto">
+        <h1 class="titulo_conteiner_crie_produto">Crie seu produto!</h1>
+        <h2 class="indicador_input_nomeproduto">Digite o nome do produto:</h2>
+        <input id="input_nome_produto_id" class="input_nome_produto" type="text" name=""/>
+
+
+        <h2 class="indicador_input_nomeproduto">Digite o preço do produto:</h2>
+        <input id="input_preco_produto_id" class="input_nome_produto" type="number" name=""/>
+
+
+        <h2 class="indicador_input_nomeproduto">Digite a foto do produto:</h2>
+        <input onchange="imagemfuncao()" id="input_foto_produto_id" class="input_nome_produto" type="file" name=""/>
+
+
+        <button onclick="EnviarDadosAPI()" class="butao_enviar_dados">Enviar</button>
+    </div>
+
+</div>
+
+</body>
+
+</html>

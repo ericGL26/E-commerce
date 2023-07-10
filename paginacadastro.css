@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.conteiner_principal {
+    display: flex;
+    background-color: white ;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_cadastro {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.titulo_div_cadastro {
+    margin-left: 20px;
+    color: rgb(196, 192, 192);
+}
+
+.input_email {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(104, 104, 104);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.butao_enviar {
+    display: flex;
+    background-color: rgb(82, 80, 80);
+    color: black;
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
